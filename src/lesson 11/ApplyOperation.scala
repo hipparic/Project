@@ -21,8 +21,11 @@ object ApplyTest{
 
 object ApplyOperation {
   def main(args: Array[String]) {
-    val arr = Array(1,2,3,4,5)
-    val a = ApplyTest()
+//    val arr = Array(1,2,3,4,5)
+//    val a = ApplyTest()
+//    a.haveATry
+    val a = new ApplyTest
     a.haveATry
+    println(a())
   }
 }

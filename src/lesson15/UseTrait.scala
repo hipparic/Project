@@ -3,6 +3,7 @@ package lesson15
 /**
   * Created by hipparchus on 2017/2/10.
   * trait & AOP
+  *
   */
 class UseTrait{
 

@@ -12,16 +12,16 @@ package spark {
         class LegOfJourney {
           private[Navigator] val distance = 100
         }
-        private[this] var speed = 200
       }
+      private[this] val speed = 200
     }
-
-    package launch{
-      import navigation._
-      object Vehicle {
-        private[launch] val guide = new Navigator
-      }
-    }
+//
+//    package launch{
+//      import navigation._
+//      object Vehicle {
+//        private[launch] val guide = new Navigator
+//      }
+//    }
   }
 
   class PackageOps_Advanced{
@@ -41,5 +41,7 @@ package spark {
 }
 
 object PackageOps_Advanced {
+  def main(args: Array[String]) {
 
+  }
 }

@@ -2,8 +2,9 @@ package lesson26
 
 /**
   * Created by hipparchus on 2017/2/14.
+  * Pattern_Match
   */
-class Pattern_Match {
+object Pattern_Match {
   def main(args: Array[String]) {
     val data = 30
     data match {
@@ -18,5 +19,14 @@ class Pattern_Match {
       case _ => "Not Known Number"
     }
     println(result)
+
+    "Spark !"foreach{
+      c => println(
+        c match {
+          case ' ' => "space"
+          case ch => "Char:" + ch
+        }
+      )
+    }
   }
 }

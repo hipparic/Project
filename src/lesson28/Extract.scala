@@ -3,6 +3,7 @@ package lesson28
 /**
   * Created by hipparchus on 2017/2/15.
   * Extractor
+  *
   */
 object Extract {
 
